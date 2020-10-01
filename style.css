@@ -10,6 +10,25 @@ body{
  line-height: 40px;
 }
 
+.menu{
+     position: relative;
+     float: right;
+     padding: 9px 10px;
+     border: 1px solid transparent;
+     border-radius: 4px;
+     background-color: inherit;
+ }
+
+ .lower-header{
+  background-image: url("img/bg-banner-home.jpg");
+  background-position: center;
+  height: 500px;
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+
+
 
 
 
@@ -30,6 +49,8 @@ a{
 .height-50{
  height: 50px;
 }
+
+
 
 /* btn */
 
