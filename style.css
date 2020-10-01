@@ -4,3 +4,36 @@ body{
  font-family: 'Montserrat', sans-serif;
  font-weight: 500;
 }
+
+/* header layout */
+.list-inline{
+ line-height: 40px;
+}
+
+
+
+
+
+/* Utilyties */
+
+/* typo */
+
+a{
+ color: black;
+}
+
+/* layout */
+.mt-30{
+ margin-top: 30px;
+}
+
+.height-50{
+ height: 50px;
+}
+
+/* btn */
+
+.btn-green{
+ border-color: #34bed4;
+ color: lightblue;
+}
