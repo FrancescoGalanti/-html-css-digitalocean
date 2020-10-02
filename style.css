@@ -11,12 +11,12 @@ body{
 }
 
 .menu{
-     position: relative;
-     float: right;
-     padding: 9px 10px;
-     border: 1px solid transparent;
-     border-radius: 4px;
-     background-color: inherit;
+ position: relative;
+ float: right;
+ padding: 9px 10px;
+ border: 1px solid transparent;
+ border-radius: 4px;
+ color: #2bd093;
  }
 
  .lower-header{
@@ -26,6 +26,10 @@ body{
   max-width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+ }
+
+ i.fas.fa-bars{
+  font-size: 20px;
  }
 
 
@@ -41,6 +45,21 @@ a{
  color: black;
 }
 
+h1{
+ color: white;
+}
+
+h2{
+ color: white;
+ font-size: 28px;
+ font-weight: 700;
+}
+
+p{
+ color:#ffffffbf;
+ font-size: 17px;
+}
+
 /* layout */
 .mt-30{
  margin-top: 30px;
@@ -52,9 +71,35 @@ a{
 
 
 
+
 /* btn */
 
 .btn-green{
  border-color: #34bed4;
  color: lightblue;
+}
+
+
+/* media */
+
+@media screen and (min-width:768px){
+ /* typo */
+
+ h2{
+  font-size: 26px;
+ }
+
+}
+
+
+@media screen and (min-width:992px){
+ /* typo */
+
+ h2{
+  font-size: 32px;
+ }
+
+ p{
+  font-size: 14px;
+ }
 }
