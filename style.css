@@ -11,18 +11,17 @@ body{
 }
 
 .menu{
- position: relative;
- float: right;
- padding: 9px 10px;
+ position: absolute;
  border: 1px solid transparent;
  border-radius: 4px;
- color: #2bd093;
+ right: 10px;
+ top: 10px;
  }
 
  .lower-header{
   background-image: url("img/bg-banner-home.jpg");
   background-position: center;
-  height: 500px;
+  height: 720px;
   max-width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -30,7 +29,64 @@ body{
 
  i.fas.fa-bars{
   font-size: 20px;
+  color: #2bd093;
  }
+
+ .title{
+  color: #403d3d;
+  font-size: 22px;
+  text-shadow: 1px 1px #40464173;
+  margin-top: 0px;
+  padding-top: 35px;
+  padding-bottom: 10px;
+ }
+
+ .sub-title{
+  font-size: 22px;
+  color: #079ae0;
+  margin-top: 0px;
+ }
+
+ .form-control{
+   width: 90%;
+   margin-left: 5%;
+ }
+
+ .img-google{
+   height: 20px;
+   float: left;
+ }
+
+ .sign{
+   color: #46a5a5de;
+   text-decoration: underline;
+ }
+
+ .sign-title{
+   font-size: 10px;
+   padding-top: 5px;
+ }
+
+ /* main layout */
+
+.main-part{
+ background-color:  #add8e652;
+}
+
+.simbol{
+ padding-left: 10px;
+}
+
+.title-deploy{
+ font-size: 26px;
+ margin-top: 50px;
+}
+
+.deploy-text{
+  color: #673e3e;
+  font-size: 20px;
+}
+
 
 
 
@@ -60,6 +116,11 @@ p{
  font-size: 17px;
 }
 
+h3{
+ color: #673e3e;;
+ font-size: 12px;
+}
+
 /* layout */
 .mt-30{
  margin-top: 30px;
@@ -69,6 +130,51 @@ p{
  height: 50px;
 }
 
+.mt-50{
+ margin-top: 50px;
+}
+
+.bw{
+ background-color: white;
+}
+
+.mb-10{
+ margin-bottom: 10px;
+}
+
+.padding-bottom{
+ padding-bottom: 30px;
+}
+
+.relative{
+ position: relative;
+}
+
+.mb{
+ margin-bottom: 30px;
+}
+
+.height-120{
+ height: 120px;
+}
+
+.mt-20{
+ margin-top: 20px;
+}
+
+.mt-60{
+ margin-top: 60px;
+}
+
+.mb-20{
+ margin-bottom: 20px;
+}
+
+.inline-block{
+ display: inline-block;
+}
+
+
 
 
 
@@ -77,22 +183,88 @@ p{
 .btn-green{
  border-color: #34bed4;
  color: lightblue;
+ margin-right: 10px;
 }
+
+.btn-primary{
+ border-color: transparent;
+ background-color: #5199af;
+}
+
+.btn{
+ width: 90%;
+}
+
+.btn-default{
+ -webkit-box-shadow: 1px 1px 0px 0px #33333361;
+ border-color: transparent;
+}
+
+
 
 
 /* media */
 
 @media screen and (min-width:768px){
+  /* header main */
+  .menu{
+   top: 15px;
+   right: 15px;
+  }
+
+ /* layout */
+ .mt-40{
+  margin-top: 40px;
+ }
+
+ .lower-header{
+   height: 450px;
+ }
+
+ .padding-0{
+  padding-left: 0;
+  padding-right: 0;
+ }
+
+ .mt-20{
+   margin-top: 0;
+ }
+
+ .height-120{
+  width: 100px;
+ }
+
+ .mt-60{
+   margin-top: 40px;
+ }
+
  /* typo */
 
  h2{
   font-size: 26px;
  }
 
+ h3{
+   font-size: 16px;
+ }
+
+ .sign-title{
+  font-size: 12px;
+ }
+
 }
 
 
 @media screen and (min-width:992px){
+ /* layout */
+ .lower-header{
+   height: 450px;
+ }
+
+ .padding-right{
+   padding-right: 43px;
+ }
+
  /* typo */
 
  h2{
@@ -102,4 +274,33 @@ p{
  p{
   font-size: 14px;
  }
+
+
+}
+
+@media screen and (min-width: 1200px){
+  /* typo */
+  p{
+   font-size: 17px;
+  }
+  h2{
+   font-size: 48px;
+  }
+  /* layout */
+  .padding-right{
+   padding-right: 110px;
+  }
+
+  .padding-left{
+   padding-left: 70px;
+  }
+
+  .height-120{
+   width: 170px;
+  }
+
+
+
+
+
 }

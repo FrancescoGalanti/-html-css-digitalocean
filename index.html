@@ -21,7 +21,7 @@
     <header>
       <!-- Header parte superiore -->
       <nav class="upper-header">
-       <div class="container mt-30">
+       <div class="container mt-30 relative">
          <div class="row">
            <!-- logo -->
            <div class=" col-xs-6 col-sm-4 col-md-2 col-lg-2 height-50">
@@ -45,7 +45,7 @@
             </ul>
            </div>
            <!-- Seconda lista link only deskotp -->
-           <div class="hidden-xs hidden-sm col-md-4 col-lg-4 ">
+           <div class="hidden-xs hidden-sm col-md-4 col-lg-4 " id="menu">
             <ul class="list-inline">
              <li>
                <a href="#">Docs</a>
@@ -63,21 +63,38 @@
            </div>
            <div class="col-xs-offset-4 col-xs-2 col-sm-offset-7 col-sm-1  hidden-md hidden-lg">
              <!-- menu  only mobile and tablet-->
-             <div class="menu btn">
-               <i class="fas fa-bars"></i>
+             <div class="menu">
+               <a href="#menu"><i class="fas fa-bars"></i></a>
              </div>
            </div>
          </div>
       </nav>
+      <!-- Header parte inferiore -->
       <nav class="lower-header">
         <div class="container text-left">
           <div class="row">
-            <div class="col-xl-12  col-sm-6 mt-30">
+            <!-- first section -->
+            <div class="col-xl-12  col-sm-6 col-md-6 col-lg-6 mt-50">
               <h2>The simplest cloud platform  for developpers & teams</h2>
               <p>deploy,manage and scale cloud applications faster and more  efficiently on DigitalOcean. We make managing infrastracture easy for teams and businesses, wether you're running one virtual machine or ten thousand.</p>
             </div>
-            <div class="col-xl-12 col-sm-6">
-
+            <!-- second section -->
+            <div class="col-xl-12    col-sm-6 col-md-6 col-lg-6 text-center padding-right padding-left">
+              <div class="form-group bw mt-40">
+                 <h2 class="title ">Deploy your app in seconds.</h2>
+                 <h2 class="sub-title">Get started now.</h2>
+                 <input  type="text" class="form-control mb-10"      placeholder="Email">
+                 <input type="text" class="form-control mb-10" placeholder="Password">
+                 <div class="btn btn-primary mb-10">
+                   create your account
+                 </div>
+                 <div class="btn btn-default mb-10">
+                   <img class="img-responsive img-google" src="./img/google-icon.png" alt="">sign up with Google
+                 </div>
+                 <div class="sign-title padding-bottom">
+                   by signing up you agree to the <a class="sign" href="#">the terms of service</a>
+                 </div>
+              </div>
             </div>
           </div>
         </div>
@@ -85,7 +102,85 @@
     </header>
 
     <!-- main -->
+    <main>
+      <!-- main-part -->
+     <div class="main-part">
+       <!-- titoli -->
+       <section class="container">
+        <div class="row">
+          <div class="col-xl-12 text-center mt-30">
+            <h3>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h3>
+          </div>
+        </div>
 
+       </section>
+       <!-- lista immagini -->
+       <section  class="container">
+         <div class="row">
+           <div class="col-xs-6 col-sm-2 col-lg-2">
+             <img class="img-responsive height-120" src="./img/docker.png" alt="">
+           </div>
+           <div class="col-xs-6 col-sm-2 col-lg-2">
+             <img class="img-responsive height-120" src="./img/gitlab.png" alt="">
+           </div>
+           <div class="col-xs-6 col-sm-2 mt-20 col-lg-2">
+             <img class="img-reponsive height-120" src="./img/slack.png" alt="">
+           </div>
+           <div class="col-xs-6 col-sm-2 mt-20 col-lg-2">
+             <img class="img-responsive height-120" src="./img/hashicorp.png" alt="">
+           </div>
+           <div class="col-xs-6 col-sm-2 mt-20 col-lg-2">
+             <img class="img-responsive height-120" src="./img/hashicorp.png" alt="">
+           </div>
+           <div class="col-xs-6 col-sm-2 mt-60 col-lg-2">
+             <img class="img-responsive height-50" src="./img/splunk.png" alt="">
+           </div>
+         </div>
+       </section>
+       <section class="container">
+         <div class="row">
+           <div class="col-xs-12 text-center mb-20">
+             <a class="sign" href="#">view customer stories<div class="simbol inline-block">></div></a>
+           </div>
+         </div>
+       </section>
+     </div>
+     <!-- main seconda parte -->
+     <section class="container">
+      <div class="row">
+        <!-- Deploy -->
+        <div class="col-xs-12 text-center">
+           <h1 class="title title-deploy">Deploy and scale seamlessly</h1>
+           <p class="deploy-text">Our optimized configuration process saves your team time when running and scaling distributed applications,AI & machine learning workloads, hosted service,client websites,or CI/CD environments.</p>
+        </div>
+      </div>
+     </section>
+     <!-- main terza parte -->
+     <section class="container">
+       <div class="row">
+         <!-- Lista -->
+         <div class="col-xl-12">
+           <ul>
+             <li>
+                Deploy
+             </li>
+             <li>
+                Manage
+             </li>
+             <li>
+                Deploy
+             </li>
+             <li>
+                Deploy
+             </li>
+             <li>
+                Deploy
+             </li>
+           </ul>
+         </div>
+       </div>
+     </section>
+    </main>
     <!-- footer -->
   </body>
 </html>
