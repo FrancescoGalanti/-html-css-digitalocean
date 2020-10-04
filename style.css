@@ -87,6 +87,26 @@ body{
   font-size: 20px;
 }
 
+.list{
+ list-style-type: none;
+ padding-left: 10px;
+ border-left: 1px solid #00000040;
+ margin-left: 3px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ color: grey;
+ font-size: 16px;
+}
+
+.cluster{
+ color: black;
+ font-size: 16px;
+}
+
+.cluster-text{
+ color: grey;
+ font-size: 12px;
+}
 
 
 
@@ -120,6 +140,9 @@ h3{
  color: #673e3e;;
  font-size: 12px;
 }
+
+
+
 
 /* layout */
 .mt-30{
@@ -174,6 +197,18 @@ h3{
  display: inline-block;
 }
 
+.padding-top{
+ padding-top: 10px;
+}
+
+.mt-10{
+ margin-top: 10px;
+}
+
+.margin-list{
+ margin-top: 40px;
+}
+
 
 
 
@@ -212,6 +247,16 @@ h3{
    right: 15px;
   }
 
+  /* main leyout */
+  .padding-list{
+   padding-top: 0;
+  }
+
+  .absolute{
+   position: absolute;
+   top: -20px;
+  }
+
  /* layout */
  .mt-40{
   margin-top: 40px;
@@ -236,6 +281,22 @@ h3{
 
  .mt-60{
    margin-top: 40px;
+ }
+
+ .mt-10{
+   margin-top: 10px;
+ }
+
+ .container-top{
+   margin-top: 40px;
+ }
+
+ .margintop-0{
+   margin-top: 0;
+ }
+
+ .container-top-10{
+  margin-top: 10px;
  }
 
  /* typo */
@@ -264,6 +325,13 @@ h3{
  .padding-right{
    padding-right: 43px;
  }
+
+ .list{
+  padding-left: 25px;
+  padding-right: 25px;
+ }
+
+
 
  /* typo */
 
@@ -297,6 +365,15 @@ h3{
 
   .height-120{
    width: 170px;
+  }
+
+  .absolute{
+   position: absolute;
+   top: -70px;
+  }
+
+  .relative{
+    position: relative;
   }
 
 
