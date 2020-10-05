@@ -18,6 +18,8 @@ body{
  top: 10px;
  }
 
+
+
  .lower-header{
   background-image: url("img/bg-banner-home.jpg");
   background-position: center;
@@ -207,6 +209,11 @@ i.fas.fa-angle-right{
  padding-bottom: 20px;
 }
 
+/* footer */
+
+.upper-footer{
+ background-color: blue;
+}
 
 
 
@@ -374,6 +381,17 @@ h3{
  border-color: transparent;
 }
 
+.btn-world{
+  border-color: transparent;
+  background-color: white;
+  color: #282b88de;
+  width: 42%;
+}
+
+.world-started{
+ font-size: 30px;
+}
+
 
 
 
@@ -385,6 +403,8 @@ h3{
    top: 15px;
    right: 15px;
   }
+
+
 
   /* main leyout */
   .padding-list{
@@ -420,6 +440,12 @@ h3{
 
   .arrow-margin{
    margin-top: 12%;
+  }
+
+  /* footer */
+
+  .world-started{
+    font-size: 28px;
   }
 
 
@@ -484,6 +510,12 @@ h3{
   font-size: 12px;
  }
 
+ /* btn */
+
+ .btn-world{
+   width: 24%;
+ }
+
 }
 
 
@@ -533,6 +565,12 @@ h3{
   margin-top: 12%;
  }
 
+ /* footer */
+
+ .world-started{
+   font-size: 28px;
+ }
+
 
 
  /* typo */
@@ -545,10 +583,19 @@ h3{
   font-size: 14px;
  }
 
+ /* btn */
+
+ .btn-world{
+   width: 18%;
+ }
+
 
 }
 
 @media screen and (min-width: 1200px){
+  /* header */
+
+
   /* typo */
   p{
    font-size: 17px;
@@ -608,6 +655,18 @@ h3{
 
   .img-margin{
    margin-left: 28%;
+  }
+
+  /* footer */
+
+  .world-started{
+   font-size: 28px;
+  }
+
+  /* botton */
+
+  .btn-world{
+   width: 15%;
   }
 
 
