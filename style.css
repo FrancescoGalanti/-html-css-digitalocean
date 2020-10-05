@@ -145,7 +145,55 @@ i.fas.fa-angle-right{
  display: none;
 }
 
+.main-fourth{
+ background-color: blue;
+}
 
+.world{
+ font-size: 22px;
+ padding-top: 50px;
+ text-align: center;
+}
+
+
+
+.row-top{
+ margin-top: 30px;
+}
+
+.code{
+ color: white;
+ padding-left: 12px;
+ font-size: 11px;
+}
+
+.flight{
+ color: #ffffffc7;
+ font-size: 11px;
+}
+
+.size{
+ font-size: 11px;
+ text-align: left;
+}
+
+.border-bottom{
+ border-bottom: 2px solid grey;
+ padding-bottom: 10px;
+ padding-top: 10px;
+}
+
+.border-padding-right-12{
+ padding-right: 12px;
+}
+
+.border-bottom-white{
+ border-bottom: 2px solid white;
+}
+
+.container-bottom{
+ padding-bottom: 80px;
+}
 
 
 
@@ -261,6 +309,26 @@ h3{
 
 
 
+.padding-0{
+ padding-left: 0px;
+ padding-right: 0px;
+}
+
+.padding-left-0{
+ padding-left: 0px;
+}
+
+.padding-right-0{
+ padding-right: 0px;
+}
+
+.text-none{
+ text-decoration: none;
+ color: #52ca20;
+}
+
+
+
 
 
 /* btn */
@@ -369,6 +437,10 @@ h3{
   margin-top: 10px;
  }
 
+ .row-top{
+  margin-top: 0px;
+ }
+
  /* typo */
 
  h2{
@@ -418,6 +490,10 @@ h3{
   top: 270px;
   right: 85px;
   display: inherit;
+ }
+
+ .row-top{
+  margin-top: 0px;
  }
 
 
@@ -482,6 +558,14 @@ h3{
    top: 300px;
    right: 100px;
    display: inherit;
+  }
+
+  .row-top{
+   margin-top: 0px;
+  }
+
+  .world{
+   font-size: 26px;
   }
 
 
