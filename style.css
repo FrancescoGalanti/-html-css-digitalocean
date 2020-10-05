@@ -195,6 +195,21 @@ i.fas.fa-angle-right{
  padding-bottom: 80px;
 }
 
+.img-bt{
+ padding-bottom: 10px;
+}
+
+.sign-line{
+ text-decoration:none;
+}
+
+.bw-bottom{
+ padding-bottom: 20px;
+}
+
+
+
+
 
 
 
@@ -327,6 +342,12 @@ h3{
  color: #52ca20;
 }
 
+.margin-bottom-0{
+ margin-bottom: 0;
+}
+
+
+
 
 
 
@@ -393,6 +414,14 @@ h3{
    display: inherit;
   }
 
+  .img-margin{
+   margin-left: 18%;
+  }
+
+  .arrow-margin{
+   margin-top: 12%;
+  }
+
 
 
  /* layout */
@@ -438,7 +467,7 @@ h3{
  }
 
  .row-top{
-  margin-top: 0px;
+  margin-top: 30px;
  }
 
  /* typo */
@@ -495,6 +524,15 @@ h3{
  .row-top{
   margin-top: 0px;
  }
+
+ .img-margin{
+  margin-left: 25%;
+ }
+
+ .arrow-margin{
+  margin-top: 12%;
+ }
+
 
 
  /* typo */
@@ -566,6 +604,10 @@ h3{
 
   .world{
    font-size: 26px;
+  }
+
+  .img-margin{
+   margin-left: 28%;
   }
 
 
